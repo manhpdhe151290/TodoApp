@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    display: flex;
+    justify-content: center;
+}
+.done {
+    text-decoration: line-through;
+    color: #777 !important;
+}
